@@ -10,14 +10,14 @@ PROCESS - TECHNICAL ANALYSIS
 ## The process
 The process is (re)defined as this:
 1.  The technical analysis to define the API & processes
-2.  An Inception phase to implement the requirements using chosen frameworks (vue.js, pyjamas|pyjs, react), not looking at the technical requirements/analysis (in order to do things the framework's way) for vue and react, and only eventually for pyjs...
+2.  An Inception phase to implement the requirements using chosen frameworks ([vue.js], [pyjamas|pyjs][pyjs], [reactjs]), not looking at the technical requirements/analysis (in order to do things the framework's way) for vue and react, and only eventually for pyjs...
 3.  And the actual implementation phase, with the chosen framework (Test, Validate - Release, Publish)
 
 **List of & process details for chosen frameworks**:
--   w/ vue.js
--   w/ pyjamas|pyjs
+-   w/ [vue.js]
+-   w/ [pyjamas|pyjs][pyjs]
 -   [transcrypt]\: once completed with pyjs, write one complete case with transcrypt
--   w/ react
+-   w/ [reactjs]
 
 With this process the different frameworks will/should use the same backend to implement the requirements...
 
@@ -32,6 +32,11 @@ And at the end of or within the process, integration of/into the [slow framework
  ... (raw &amp; messy, for now), is here: [technical requirements]
 
 
-[technical requirements]: https://github.com/molhokwai/pwa-framework/tree/master/technical.md
-[dev stack]: https://github.com/molhokwai/pwa-framework/tree/master/dev-stack.md
+[technical requirements]: https://raw.githubusercontent.com/molhokwai/pwa-framework/tree/master/technical.md
+[dev stack]: https://raw.githubusercontent.com/molhokwai/pwa-framework/tree/master/dev-stack.md
+[vue.js]: http://vuejs.org/
+[vuejs]: http://vuejs.org/
+[pyjs]: http://pyjs.org/
+[py.js]: http://pyjs.org/
+[reactjs]: http://reactjs.org/
 [transcrypt]: http://transcrypt.org/
