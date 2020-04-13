@@ -86,16 +86,16 @@ Choose and implement a **bootstrapious** template...
 - Obvious help button
   - top right col-lg+, top middle col-md-
   - on click: 
-    {
-        Site.comm.send({
-            channels:['mail', <v++>'chat'], names:'help_requested',
-            operators:['client_service'] \(client_service | technical_support | admin\),
-            details:{
-                user_details: Site.global.user_details,
-                page_details: Site.global.page_details,
-            }
-        }),
-    }
+        {
+            Site.comm.send({
+                channels:['mail', <v++>'chat'], names:'help_requested',
+                operators:['client_service'] \(client_service | technical_support | admin\),
+                details:{
+                    user_details: Site.global.user_details,
+                    page_details: Site.global.page_details,
+                }
+            }),
+        }
 
 
 ### Technical case: Common
