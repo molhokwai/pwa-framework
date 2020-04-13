@@ -2,7 +2,7 @@
 
 INTRO
 =====
-The purpose of this document/page is to provide a technical analysis of the web2py PWA framework. It should provide a clear view of the general and specific w2p (web2py) technical mechanisms to build the PWA framwework. It is based on the [requirements](./requirements.md) document
+The purpose of this document/page is to provide a technical analysis of the web2py PWA framework. It should provide a clear view of the general and specific w2p (web2py) technical mechanisms to build the PWA framwework. It is based on the [requirements _(only available locally)_](./requirements.md) document
 
 ## Audience
 It is intended for (web) developpers and generally for developers and programmers.

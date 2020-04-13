@@ -33,7 +33,7 @@ And at the end of or within the process, integration of/into the [slow framework
 
 
 [technical requirements]: https://raw.githubusercontent.com/molhokwai/pwa-framework/master/technical.md
-[dev stack]: https://raw.githubusercontent.com/molhokwai/pwa-framework/master/dev-stack.md
+[dev stack]: https://raw.githubusercontent.com/molhokwai/pwa-framework/master/dev.stack.md
 [vue.js]: http://vuejs.org/
 [vuejs]: http://vuejs.org/
 [pyjs]: http://pyjs.org/
