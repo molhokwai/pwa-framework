@@ -109,11 +109,11 @@ Choose and implement a **bootstrapious** template...
         )
     }
 
-2. `Site.common.\_function()
+2. Site.common.\_function()
     \# All API functions return value, { status:1|0|-1, message:'', code:200|404|500 }
-    \# function that all other functions will _inherit_ from...`
+    \# function that all other functions will _inherit_ from...
 
-3. `Site.pwa.display
+3. Site.pwa.display
     <html:page:load | w2p:page:load>
     -   Site.pwa.display = function({ page:_page_, components:null | [ _names_ ], display:'std'(default)|overlay }) {
             Site.global.page_details = {
@@ -140,9 +140,9 @@ Choose and implement a **bootstrapious** template...
             Site.pwa.display({ components:components })
             #...
             return [value], {...}
-        }`
+        }
 
-    -   `Site.pwa.display({ component:menu })
+    -   Site.pwa.display({ component:menu })
             <w2p:component:load>
             Site.pwa.display = function(...) {
                 Site.components.fetch({ name:. }) = {
@@ -154,9 +154,9 @@ Choose and implement a **bootstrapious** template...
                 }
                 #...
                 return [value], {...}
-            }`
+            }
 
-4.  `<site:action button="[name]" event="[event]" success="Site.display(message\|page\|component)">
+4.  <site:action button="[name]" event="[event]" success="Site.display(message\|page\|component)">
     Site.pwa.on(
         <w2p:event:handling?>
         { 
@@ -168,9 +168,9 @@ Choose and implement a **bootstrapious** template...
             return [value], {...}
         }
     )
-    </site:action>`
+    </site:action>
 
-5.  `Site.pwa.on.\_access(
+5.  Site.pwa.on.\_access(
         <w2p:access_control>
         { page:[name]('website_configuration'), component:[name] },
         function(){
@@ -192,23 +192,23 @@ Choose and implement a **bootstrapious** template...
             </site:security:check_acl>
             return [value], {...}            
         }        
-    )`
+    )
 
 
 ### App creation
 #### Technical case: 
 _User access: all_
 
-1. `Site.pwa.display
+1. Site.pwa.display
     <html:p:l | w2p:c:l>
-    ({ page:'landing', components:null | [ _names_ ] })`
+    ({ page:'landing', components:null | [ _names_ ] })
 
-2.  `Site.pwa.on(
+2.  Site.pwa.on(
         <w2p:e:h?>
         { 
             page:null, component:null, button:'create_free_app', action:'click',
             success:{ page:'website_configuration' },
-        },`
+        },
 3.      Site.pwa.display({ components:['free_app_shopcart'] })
         <w2p:c:l>
         function(){
@@ -229,7 +229,7 @@ _User access: all_
 #### Technical case: 
 _User access: all_
 
-1.  `Site.pwa.display
+1.  Site.pwa.display
     <html:p:l | w2p:p:l>
     ({ page:'authentication', referral:<...> }){
         Site.security.check_acl
@@ -256,7 +256,7 @@ _User access: all_
                     ({ page:'authentication', components:['login_register'], referral:<...> })
             }
         }
-    }`
+    }
 
 
 
@@ -265,7 +265,7 @@ _User access: all_
 _User access: all_
 Standard flow.
 
-`1.  Site.pwa.display
+1.  Site.pwa.display
     <html:p:l | w2p:p:l>
     ({ component:'contact_newsletter', which:'contact' | 'newsletter', referral:<...> }){
         if(!Site.global.user_details){
@@ -291,7 +291,7 @@ Standard flow.
             error: .callbacks.error(),
         })
         </site:form:process>
-    }`
+    }
 
 
 ### Blog
