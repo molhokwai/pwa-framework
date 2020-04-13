@@ -28,8 +28,8 @@ And at the end of or within the process, integration of/into the [slow framework
 
 
 
-# Technical analysis (raw &amp; messy, for now)
-... is here: [technical requirements]
+# Technical analysis
+ ... (raw &amp; messy, for now), is here: [technical requirements]
 
 
 [technical requirements]: https://github.com/molhokwai/pwa-framewrok/tree/master/technical.md
