@@ -32,6 +32,6 @@ And at the end of or within the process, integration of/into the [slow framework
  ... (raw &amp; messy, for now), is here: [technical requirements]
 
 
-[technical requirements]: https://github.com/molhokwai/pwa-framewrok/tree/master/technical.md
-[dev stack]: https://github.com/molhokwai/pwa-framewrok/tree/master/dev-stack.md
+[technical requirements]: https://github.com/molhokwai/pwa-framework/tree/master/technical.md
+[dev stack]: https://github.com/molhokwai/pwa-framework/tree/master/dev-stack.md
 [transcrypt]: http://transcrypt.org/
