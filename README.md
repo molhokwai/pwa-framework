@@ -32,6 +32,9 @@ And at the end of or within the process, integration of/into the [slow framework
  ... (raw &amp; messy, no UML, just text for now), is here: [technical requirements]
 
 
+![62560918-pwa-framework-subl--c-plugin_shoppingcart](https://user-images.githubusercontent.com/89254/79353109-871ae300-7f32-11ea-87ff-2ac4756de298.png)
+
+
 [technical requirements]: https://raw.githubusercontent.com/molhokwai/pwa-framework/master/technical.md
 [dev stack]: https://raw.githubusercontent.com/molhokwai/pwa-framework/master/dev.stack.md
 [vue.js]: http://vuejs.org/
